@@ -283,7 +283,7 @@ function draw(components, unitsPerAxe, renderFunc) {
     getBasis(unitsPerAxe),
     {
       primitive: WebGLRenderingContext.LINE_STRIP,
-      color: [1, 0.2, 0.3, 0],
+      color: [1, 1, 0.3, 0],
       components
     }
   ]);
