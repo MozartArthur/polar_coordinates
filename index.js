@@ -226,7 +226,7 @@ function makeRender(gl, colorUniformLocation) {
 }
 
 function getBasis(unitsPerAxe) {
-  const semiAxisUnits = unitsPerAxe / 2;
+  const semiAxisUnits = unitsPerAxe / 4;
   const axes = {
     primitive: WebGLRenderingContext.LINES,
     color: [0.5, 0.5, 0.5, 1],
