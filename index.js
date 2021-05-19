@@ -206,7 +206,7 @@ function createProgram(gl, vertexShader, fragmentShader) {
 function makeRender(gl, colorUniformLocation) {
   return (objects)  => {
     gl.viewport(0, 0, gl.canvas.width, gl.canvas.height);
-    gl.clearColor(1, 1, 1, 1);
+    gl.clearColor(0, 0, 0, 1);
     gl.clear(gl.COLOR_BUFFER_BIT);
 
     objects.forEach(({ components, primitive, color }) => {
@@ -229,7 +229,7 @@ function getBasis(unitsPerAxe) {
   const semiAxisUnits = unitsPerAxe / 2;
   const axes = {
     primitive: WebGLRenderingContext.LINES,
-    color: [0.3, 0.1, 0.7, 1],
+    color: [0, 0, 0.5, 1],
     components: [
       -semiAxisUnits, 0,
       semiAxisUnits, 0,
@@ -283,7 +283,7 @@ function draw(components, unitsPerAxe, renderFunc) {
     getBasis(unitsPerAxe),
     {
       primitive: WebGLRenderingContext.LINE_STRIP,
-      color: [0.8, 0.1, 0.1, 1]
+      color: [0.3, 1, 0.3, 1],
       components
     }
   ]);
