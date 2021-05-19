@@ -229,7 +229,7 @@ function getBasis(unitsPerAxe) {
   const semiAxisUnits = unitsPerAxe / 2;
   const axes = {
     primitive: WebGLRenderingContext.LINES,
-    color: [0.4, 0.9, 0.4, 0.9],
+    color: [0.4, 0.9, 0.4, 1],
     components: [
       -semiAxisUnits, 0,
       semiAxisUnits, 0,
@@ -283,7 +283,7 @@ function draw(components, unitsPerAxe, renderFunc) {
     getBasis(unitsPerAxe),
     {
       primitive: WebGLRenderingContext.LINE_STRIP,
-      color: [0, 1, 1, 1],
+      color: [1, 1, 1, 1],
       components
     }
   ]);
