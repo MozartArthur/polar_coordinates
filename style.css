@@ -58,10 +58,14 @@ button:active {
 }
 
 canvas {
-  min-width: 42%;
-  margin: 12px;
-  border: solid #88acff 1px;
-  background: white;
+  width: 90%;
+  margin: 10px;
+  border: double 4px #300e96;
 }
+
+@media (min-width: 620px) {
+  canvas {
+    width: 42%;
+  }
 
 }
