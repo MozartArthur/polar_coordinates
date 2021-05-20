@@ -2,7 +2,7 @@ body {
   margin: 0;
     background-image: linear-gradient(
       to right,
-      #88abff,
+      #787878,
       #eaeaea
     );
   color: #747474;
@@ -60,7 +60,6 @@ button:active {
 canvas {
   width: 90%;
   margin: 10px;
-  border: double 4px #300e96;
 }
 
 @media (min-width: 620px) {
