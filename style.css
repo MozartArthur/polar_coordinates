@@ -43,6 +43,7 @@ button {
   padding-right: 7px;
   border-color: white;
   border-radius: 12px
+  padding: 12px 28px;
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
   background: #88abff;
   color: white;
@@ -50,12 +51,12 @@ button {
 }
 
 button:hover {
-  border-color: #603ec6;
+  border-color: #3ec667;
 }
 
 button:active {
   color: black;
-  background: #04bdbd;
+  background: #7ca187;
   border: black;
 }
 
