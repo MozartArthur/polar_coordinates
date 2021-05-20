@@ -70,8 +70,8 @@ button:active {
 }
 
 canvas {
-  width: 90%;
-  margin: 10px;
+  width: inherit;
+  max-width: inherit;
 }
 
 @media (min-width: 620px) {
