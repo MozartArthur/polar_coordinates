@@ -45,7 +45,6 @@ input[type=text] {
 }
 
 button {
-  margin: auto 3px;
   padding: 4px;
   border: 1px solid #88ffac;
   border-radius: 2px;
