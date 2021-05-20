@@ -39,13 +39,12 @@ input[type=text] {
 }
 
 button {
-  padding-left: 7px;
-  padding-right: 7px;
+  padding-left: 12px;
+  padding-right: 28px;
   border-color: white;
-  border-radius: 12px
-  padding: 12px 28px;
+  border-radius: 30px
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
-  background: #88abff;
+  background: #31994d;
   color: white;
   cursor: pointer;
 }
