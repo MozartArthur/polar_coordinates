@@ -39,13 +39,17 @@ input[type=text] {
 }
 
 button {
-  margin-left: auto;
-  margin-right: auto;
-  width: 200px;
-  border-color: grey;
-  border-radius: 7px
-  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
-  background: #46b377;
+  margin: auto 3px;
+  padding: 4px;
+  border: 1px solid #88ffac;
+  border-radius: 2px;
+  font-family: monospace;
+  letter-spacing: 0.02rem;
+  outline-color: green;
+  padding-left: 7px;
+  padding-right: 7px;
+  border-color: white;
+  background: #88ffac;
   color: white;
   cursor: pointer;
 }
